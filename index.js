@@ -6,7 +6,7 @@ const fs = require('fs');
 const { viewportHeight, viewportWidth, browsers, options } = config;
 let escenarios = [];
 let steps = [];
-
+ 
 async function executeTest(){
 
     let resultInfo = {}
